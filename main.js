@@ -18,6 +18,7 @@ document.querySelector("#app").innerHTML = `
     <img src="./assets/logo.svg" alt="Logo da NLW Copa">
   </header>
   <main id="cards">
-    
+    ${createCard()}
+    ${createCard()}
   </main>
 `
