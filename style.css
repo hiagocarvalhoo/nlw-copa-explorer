@@ -96,3 +96,8 @@ header {
 .card ul li img:hover {
   transform: scale(1.1);
 }
+
+.card ul li strong,
+.card ul li img {
+  transition: transform 0.3s;
+}
