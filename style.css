@@ -91,3 +91,8 @@ header {
   line-height: 125%;
   color: #e1e1e6;
 }
+
+.card ul li strong:hover,
+.card ul li img:hover {
+  transform: scale(1.1);
+}
