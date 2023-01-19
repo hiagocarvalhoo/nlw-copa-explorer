@@ -103,3 +103,8 @@ header {
 .card ul li img {
   transition: transform 0.3s;
 }
+
+@keyframes appear {
+  0% {}
+  100% {}
+}
