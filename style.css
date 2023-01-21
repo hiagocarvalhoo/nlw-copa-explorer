@@ -16,7 +16,8 @@ body {
 }
 
 body * {
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
+  ;
 }
 
 #app {
@@ -80,7 +81,7 @@ header {
   justify-content: space-between;
 }
 
-.card ul li + li {
+.card ul li+li {
   padding-top: 24px;
   border-top: 1px solid #323238;
 }
@@ -117,5 +118,13 @@ header {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (min-width: 700px) {
+  #cards {
+    max-width: 664px;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
