@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --card-color-primary: #f7dd43;
+}
+
 ul {
   list-style: none;
 }
@@ -17,7 +21,6 @@ body {
 
 body * {
   font-family: 'Roboto', sans-serif;
-  ;
 }
 
 #app {
@@ -40,7 +43,7 @@ header {
   text-align: center;
 
   background: #1d1c19;
-  border-bottom: 2px solid #f7dd43;
+  border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
 }
 
@@ -58,7 +61,7 @@ header {
   margin-inline: auto;
   margin-bottom: 53px;
 
-  color: #f7dd43;
+  color: var(--card-color-primary);
 }
 
 .card h2 span {
